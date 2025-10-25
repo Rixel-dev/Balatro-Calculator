@@ -1,8 +1,12 @@
 # Balatro Calculator
 
-A web-based score calculator for Balatro, the poker roguelike game. Calculate exact scores for any hand configuration with jokers, enhancements, editions, and game modifiers.
+![Balatro Calculator](./BalatroCalculator.png)
 
-**Live Demo**: https://www.balatrocalculators.com/
+<p align="center">
+  <strong>Live Demo</strong>: <a href="https://www.balatrocalculators.com/">www.balatrocalculators.com</a>
+</p>
+
+A web-based score calculator for Balatro, the poker roguelike game. Calculate exact scores for any hand configuration with jokers, enhancements, editions, and game modifiers.
 
 ## About
 
@@ -15,11 +19,3 @@ This calculator simulates Balatro's scoring mechanics, allowing players to:
 - View detailed score breakdowns showing how each element contributes to the final result
 
 The calculator follows the exact scoring formula from the game: Hand Evaluation → Base Score → Card Scoring → Enhancements → Joker Effects → X Multipliers → Final Score (chips × mult).
-
-## Tech Stack
-
-Built with Next.js 14, TypeScript, and original Balatro game assets.
-
-## Acknowledgments
-
-Based on Balatro by LocalThunk. Inspired by the original [balatro-calculator](https://github.com/efhiii/balatro-calculator).
